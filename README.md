@@ -10,7 +10,11 @@ You can add other pictures with a folder with the label name in the 'data'.
 ## Requirements
 * python==3.8   
 * numpy==1.21.3   
-* pytorch==1.0.2   
+* torch==1.6.0
+* torchvision==0.2.0
+* matplotlib==3.0.3
+* scipy==1.7.1
+* pyjson==1.3.0  
 
 ## Experiments
 * Targeted FGSM
