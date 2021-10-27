@@ -20,3 +20,11 @@ You can add other pictures with a folder with the label name in the 'data'.
 * Targeted FGSM
 * Non-targeted FGSM
 * i-FGSM
+
+## How to use this
+1. Install Docker
+2. Clone this project
+3. Build: `sudo docker build -t fgsm/project .`
+4. Run: `sudo docker run -p 7777:7777 fgsm/project`
+5. Open browser and paste the **url**
+6. Paste **token**
